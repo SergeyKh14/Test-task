@@ -12,7 +12,7 @@ const Home = () => {
         <br />
         that <span className="text-blue">adds value</span>
       </h1>
-      <div className="xl:w-[1374px] md:w-[906px] w-[438px] my-[80px] grid grid-cols-3 xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-x-[30px] gap-y-[40px]">
+      <div className="w-[438px] md:w-[906px] xl:w-[1374px] my-[80px] grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-[30px] gap-y-[40px]">
         {mediaItems.map((item) => (
           <MediaItem key={item.title} {...item} />
         ))}
